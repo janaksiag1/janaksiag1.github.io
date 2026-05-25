@@ -29217,14 +29217,14 @@ $.a9.toString
 A.Tj(B.a_X)
 q=3
 s=6
-return A.A($.aKK().wz(".env"),$async$a3m)
+return A.A($.aKK().wz("assets/env"),$async$a3m)
 case 6:q=1
 s=5
 break
 case 3:q=2
 f=p.pop()
 o=A.aa(f)
-A.ks().$1("Failed to load .env file: "+A.l(o))
+A.ks().$1("Failed to load env file: "+A.l(o))
 s=5
 break
 case 2:s=1
