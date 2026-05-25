@@ -91863,15 +91863,14 @@ break}m.I(new A.auq(m,a))
 m.f.l8(B.jM)
 m.SN()
 p=4
-i=A.e7("https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",0,null)
-h=$.aKK()
-if(!h.a)A.a6(new A.Qo())
-h=h.b.h(0,"GEMINI_API_KEY")
-if(h==null)h="AIzaSyBLgNi_wvzoKKsbQR1I41G7QHx_kRKDQrA"
-g=t.N
-h=A.a7(["Content-Type","application/json","X-goog-api-key",h],g,g)
+i=$.aKK()
+if(!i.a)A.a6(new A.Qo())
+i=i.b.h(0,"GEMINI_API_KEY")
+i=A.e7("https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key="+(i==null?"AIzaSyBLgNi_wvzoKKsbQR1I41G7QHx_kRKDQrA":i),0,null)
+h=t.N
+g=A.a7(["Content-Type","application/json"],h,h)
 s=7
-return A.A(A.b6x(i,B.da.WY(A.a7(["contents",A.a([A.a7(["parts",A.a([A.a7(["text","You are a virtual assistant for a developer named Janak Swami. Keep your answers brief and edgy cyberpunk style. The user asks: "+a],g,g)],t.m0)],g,t.xW)],t.Ud)],g,t.pQ),null),h),$async$uN)
+return A.A(A.b6x(i,B.da.WY(A.a7(["contents",A.a([A.a7(["parts",A.a([A.a7(["text","You are a virtual assistant for a developer named Janak Swami. Keep your answers brief and edgy cyberpunk style. The user asks: "+a],h,h)],t.m0)],h,t.xW)],t.Ud)],h,t.pQ),null),g),$async$uN)
 case 7:l=c
 if(l.b===200){i=l
 k=B.da.IF(A.b5C(A.b36(i.e)).f2(i.w),null)
